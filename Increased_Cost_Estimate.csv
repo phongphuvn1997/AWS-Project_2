@@ -1,0 +1,27 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,19724.43,236693.16,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),VM,Amazon EC2 ,0,7870.91,94450.92,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (m5a.8xlarge), Pricing strategy ( 1 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (100 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Database,Amazon RDS for PostgreSQL,0,8709.236,104510.83,USD,,"Storage volume (General Purpose SSD (gp3)), Storage amount (1 TB), Nodes (2), Instance Type (db.m5d.8xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), General Purpose SSD (gp3) - IOPS (12000), General Purpose SSD (gp3) - Throughput (500 MiBps)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,915.5,10986,USD,,"Hosted Zones (2), Number of Elastic Network Interfaces (10)"
+My Estimate,US East (N. Virginia),Application Load Balancer,Application Load Balancer,0,1200.85,14410.2,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Application Load Balancer,Network Load Balancer,0,290.18,3482.16,USD,,"Number of Network Load Balancers (1), Average number of new TCP connections (50000 per second)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23.55,282.6,USD,,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),VPC,VPN Connection,0,603.5,7242,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (1), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,110.7,1328.4,USD,,Number of NAT Gateways (2)
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+Note:,,,,,,,,,
+,Change tier of EC2 and RDS to higher tier ( m5a.4xlarge -> m5a.8xlarge ),,,,,,,,
+,"increase number of instance : EC2 ( 6->12) , RDS( 1->2)",,,,,,,,
+,increase number of Elastic Network Interfaces -> 10,,,,,,,,
